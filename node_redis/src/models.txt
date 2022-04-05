@@ -1,0 +1,40 @@
+- User
+    - firstName (required)
+    - middleName (optional)
+    - lastName (required)
+    - age (required)
+    - email (required )
+    - address ( required )
+    - gender ( optional and should default to Female )
+    - type (optional and it can take value of customer or employee and if not provided then default to customer )
+    - createdAt (required)
+    - updatedAt (required)
+
+ - BranchDetail
+    - name (required)
+    - address (required)
+    - IFSC (required and string)
+    - MICR (required and number )
+    - createdAt (required)
+    - updatedAt (required)
+
+ - MasterAccount
+    - balance (required) This is the total balance that the person has in the bank
+    - createdAt (required)
+    - updatedAt (required)
+
+- SavingsAccount
+    - account_number ( required and should be unique)
+    - balance ( required )
+    - interestRate ( required )
+    - createdAt (required)
+    - updatedAt (required)
+
+- FixedAccount
+    - account_number ( required and should be unique)
+    - balance ( required )
+    - interestRate ( required )
+    - startDate ( required )
+    - maturityDate (required )
+    - createdAt (required)
+    - updatedAt (required)
